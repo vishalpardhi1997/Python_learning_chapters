@@ -1,0 +1,41 @@
+string1 = "I am a \n string \n in several lines"
+print(string1)
+
+string2 = "1. cake, \t 2.flour,\t 3. sugar\n."
+print(string2)
+
+print('Donald trump said "Its going to be huge".')
+# Example of use of escape sequence or character(\).
+print("Donald trump said \"Its going to be huge\".")
+# Example of use of escape sequence or character(\).
+print("""Donald trump said 'Its going to be huge'.""")
+# Example of use of escape sequence or character(\).
+string3 = (""" I am string \
+which is spanning \
+over few lines """)
+print(string3)
+# C:User\temp\new_course.pdf
+
+print("C:\\User\\temp\\new_course.pdf")
+print(r"C:\User\temp\new_course.pdf")
+
+# \n= new line \t=space \a=bell sound  \b=backspace
+print("Hello \b\b\b\b\bworld!")
+
+# \F= ASCII Formfeed (FF)
+print("Hello \fworld")
+
+# \r= carriage Return
+print("Hello \rworld")
+
+# \v= vertical tab
+# Hello
+#       world
+print(" Hello \vworld")
+
+# \o= octal valve
+print("\110\145\154\154\157 ")
+
+# \hxx=hexadecimal value
+print("\x48\x65\x6c\x6c\x6f\x20 ")
+# obselete \v \f
