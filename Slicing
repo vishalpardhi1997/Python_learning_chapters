@@ -1,0 +1,16 @@
+#          012345678901234
+string1 = "Prepinsta Prime"
+print(string1[0:15])
+print(string1[0:15:3])
+
+number = "1,786,500,400,108,101"
+print(number[1::4])
+# seperater
+sep = (number[1::4])
+print(sep)
+
+# Val =
+
+values = "".join(char if char not in sep else " " for char in number).split()
+print([int(val) for val in values])
+
