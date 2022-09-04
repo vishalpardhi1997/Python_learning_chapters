@@ -1,0 +1,18 @@
+string1= "prepInsta"
+print(type(string1))
+print(type(10.0))
+
+x,y,z ="prepinsta" ,"is" ,"6"
+
+# these are type of str
+
+print(x+' '+y+' '+ z)
+
+x="5"
+y="prepinsta"
+# isinstace() issubclass()
+# numeric data types are : int, float, decimal ,complex
+# string data type str
+
+
+print(x +y)
