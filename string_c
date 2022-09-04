@@ -1,0 +1,11 @@
+#                      1
+#            012345678901234
+string1 = "Prepinsta Prime"
+#          -15          -1
+# 0 1 2 3
+
+print(string1[0:4])
+print(string1[5:11])
+print(string1[0:9])
+print(string1[:9])
+print(string1[-5:-3]) #negative slicing
