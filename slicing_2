@@ -1,0 +1,22 @@
+
+#            0                        25
+alphabets = "abcdefghijklmnopqrstuvwxyz"
+print(alphabets[0:25:2])
+print(alphabets[25:0:-1])
+print(alphabets[25::-1])
+
+#mno
+#onm
+#ehkn
+#nhke
+#abcdefgh
+# last 20 charachters
+# first 20 charachters
+#            0          11   13        25
+#alphabets = "abcdefghijklmnopqrstuvwxyz"
+print(alphabets[12:15])
+print(alphabets[14:11:-1])
+print(alphabets[4:16:3])
+print()
+print(alphabets[0:8])
+
