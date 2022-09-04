@@ -1,0 +1,7 @@
+print('I love prep Insta')
+print('i love "prep" also')
+# so this is a comment and below are your variables
+variable = "your name is"
+name = input("Enter your name : ")
+print (variable +" "+ name)
+print (variable + name)
