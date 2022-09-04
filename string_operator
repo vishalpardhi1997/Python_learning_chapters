@@ -1,0 +1,26 @@
+string0= ["Orange", "Apples", "Banana"]
+print(string0[1][3])
+
+string1= "I am"
+string2= " studying from"
+string3= " PrepInsta Python"
+string4= " Prime video course."
+
+print(string1 + string2 + string3 + string4)
+print("I am" " studying from" " PrepInsta Python" " Prime video course." )
+string5=("I am" + " studying from" + " PrepInsta Python" + " Prime video course.")
+         #here we are not simply printing,we are adding strings.
+print(string5)
+
+print() # for space
+
+print("prepInsta " * 3)
+print(" prepinsta" *(3+5)) # observe how spaces play important role esthtically.
+print("prepInsta " * 3 +"5") # adding 5 as a string.
+
+day = "Sunday"
+print("day" in day) #true
+print("fri" in day) #false
+print("sun" in day)#false because it is case sensetive.
+print("Aug" in day)#false
+print("Aug" in "August")
