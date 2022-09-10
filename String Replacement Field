@@ -1,0 +1,28 @@
+# use of( "xyz".format(xyz))
+weight = 70
+
+print("My weight is " + str(weight) + " kgs" )
+
+print("My weight is {0} kgs".format(weight))
+
+print("We have {0} days in {1}, {2}, {3}, {4}, {5}, {6}, {7}"
+      .format(31,"Jan","feb","march","april", "may", "June", "July"))
+
+print("We have {0} days in jan,feb,march,april,may,june,july"
+     .format(31))  # can also be written as.
+
+print("Jan: {2}, feb: {0}, March: {1},April: {1},May: {2}, June: {1}, July: {2}, Aug: {2}, Sep: {1}, Oct: {2}, Nov: {1}, Dec: {2}"
+      .format(28,30,31)) 
+
+print("""Jan: {2}
+feb: {0}
+March: {1}
+April: {1}
+May: {2}
+June: {1}
+July: {2}
+Aug: {2}
+Sep: {1}
+Oct: {2}
+Nov: {1}
+Dec: {2}""".format(28,30,31))   #triple quotes formatting. for better appearence.
